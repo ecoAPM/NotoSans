@@ -1,0 +1,19 @@
+name: CI
+on: push
+jobs:
+  Build:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Build dependencies
+        run: docker-compose build
+
+      - name: Convert files
+        run: docker-compose up
+
+      - name: Store results
+        uses: actions/upload-artifact@v2
+        with:
+          name: NotoSans
+          path: dist
