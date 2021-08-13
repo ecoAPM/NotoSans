@@ -4,3 +4,5 @@
 [![CI status](https://github.com/ecoAPM/NotoSans/workflows/CI/badge.svg)](https://github.com/ecoAPM/NotoSans/actions)
 
 An automated process to download and convert Google's Noto Sans font
+
+To build from source, run `docker-compose up`.
