@@ -1,0 +1,22 @@
+name: npm
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  Publish:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Build dependencies
+        run: docker-compose build
+
+      - name: Convert files
+        run: docker-compose up
+
+      - name: Publish
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
