@@ -7,6 +7,37 @@
 [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=ecoAPM_NotoSans&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=ecoAPM_NotoSans)
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=ecoAPM_NotoSans&metric=security_rating)](https://sonarcloud.io/dashboard?id=ecoAPM_NotoSans)
 
-An automated process to download and convert Google's Noto Sans font
+## Requirements
 
-To build from source, run `docker-compose up`.
+- Node.js
+- a CSS bundler (or JS bundler that can also bundle CSS)
+
+## Installation
+
+`npm i notosans`
+
+or
+
+`yarn add notosans`
+
+## Usage
+
+Import the CSS file from the package to include the `@font-face` declarations and `.woff2` files in your bundle:
+
+```css
+@import url("notosans/noto.css");
+
+body {
+    font-family: "NotoSans", sans-serif; /* it's always a good idea to specify a generic fallback */
+}
+```
+
+## Build from source
+
+This npm package is built from an automated process that downloads and converts Google's Noto Sans font from TTF to WOFF2.
+
+To run it yourself, clone this repo and then run:
+
+```
+docker-compose up
+```
