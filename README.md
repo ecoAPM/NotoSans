@@ -28,7 +28,7 @@ Import the CSS file from the package to include the `@font-face` declarations an
 @import url("notosans/noto.css");
 
 body {
-    font-family: "NotoSans", sans-serif; /* it's always a good idea to specify a generic fallback */
+    font-family: "Noto Sans", sans-serif; /* it's always a good idea to specify a generic fallback */
 }
 ```
 

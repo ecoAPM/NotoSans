@@ -13,3 +13,4 @@ rm src/*Italic*.ttf
 mkdir -p dist
 ls src/*.ttf | xargs -I x woff2_compress x
 mv src/*.woff2 dist
+cp src/LICENSE_OFL.txt dist
