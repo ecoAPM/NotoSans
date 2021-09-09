@@ -1,6 +1,6 @@
 # Noto Sans Web Fonts
 
-[![npm version](https://badge.fury.io/js/notosans.svg)](https://npmjs.com/package/notosans)
+[![npm version](https://img.shields.io/npm/v/notosans?logo=npm&label=Install)](https://npmjs.com/package/notosans)
 [![CI status](https://github.com/ecoAPM/NotoSans/workflows/CI/badge.svg)](https://github.com/ecoAPM/NotoSans/actions)
 
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=ecoAPM_NotoSans&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=ecoAPM_NotoSans)
