@@ -6,7 +6,7 @@ on:
 
 jobs:
   Publish:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
 
@@ -19,4 +19,5 @@ jobs:
       - name: Publish
         uses: JS-DevTools/npm-publish@v1
         with:
+          package: dist/package.json
           token: ${{ secrets.NPM_TOKEN }}
