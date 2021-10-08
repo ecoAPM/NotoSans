@@ -1,5 +1,7 @@
 # Noto Sans Web Fonts
 
+Use Noto Sans web fonts with a single CSS import!
+
 [![npm version](https://img.shields.io/npm/v/notosans?logo=npm&label=Install)](https://npmjs.com/package/notosans)
 [![CI status](https://github.com/ecoAPM/NotoSans/workflows/CI/badge.svg)](https://github.com/ecoAPM/NotoSans/actions)
 
