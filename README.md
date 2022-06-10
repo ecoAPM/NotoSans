@@ -1,3 +1,5 @@
+***This project is now archived, in favor of [Fontsource](https://www.npmjs.com/package/@fontsource/noto-sans).***
+
 # Noto Sans Web Fonts
 
 Use Noto Sans web fonts with a single CSS import!
